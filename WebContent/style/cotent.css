@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+
+
+background:#fbfaed;
+	padding:0;
+	margin: 0;
+	text-align: center;
+}
+img{
+vertical-align:top;  
+}
+img{
+vertical-align:top;  
+}
+
+.logo{
+position:absolute;
+top:0;
+left:0;
+}
+
+.login{
+color:#ccc;
+margin:0;
+padding:0;
+position:absolute;
+top:58px;
+right:13px;}
+
+.main1{
+height:100%;
+width:900px;
+margin:0 auto;
+background:#fff;
+box-shadow: 1px 2px 2px #ccc;
+padding-top: 40px;
+}
+
+li{list-style:none;line-height:1.8em;}
+a{text-decoration:none;}
+em{font-style:normal;color:#69c;}
+
+
+.section{
+	display: inline-block;
+/*	float: left;*/
+	/*border: 1px solid #ccc;*/
+	width: 250px;
+	height: 250px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.img{
+	height: 200px;
+	width: 250px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+.img:hover{
+	border:1px solid #FED61A;
+}
+
+.section img{
+	position: relative;
+	height: 200px;
+	width: 250px;
+	display: block;
+}
+
+.section img:hover{
+	transform:scale(1.25,1.25);
+	moz-transition: all .7s ease-in;
+	-o-transition: all .7s ease-in;
+	-ms-transition: all .7s ease-in;
+	transition: all .7s ease-in;
+}
+
+.author,.num{
+	color: #ccc;
+/*	font-size: 0.8em;*/
+}
+.icon1,.icon2{
+	padding-left: 22px;
+	display: inline-block;
+}
+.f_l a{
+	display: inline-block;
+}
+.f_l{
+	height: 23px;
+}
+.icon1{
+	background: url(../images/author.png) no-repeat;
+}
+
+.icon2{
+	background: url(../images/hot.png) no-repeat;
+}
+
+.name{
+	color: black;
+	text-align: left;
+	display: block;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.intro{
+	padding-left: 5px;
+}
+
+@media screen and (min-height:  800px){
+	.main1{
+		height: auto;
+	}
+  }
+

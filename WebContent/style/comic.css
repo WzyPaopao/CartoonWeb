@@ -1,0 +1,94 @@
+.main1{
+	width: 900px;
+	height: 100%;
+	background: white;
+	box-shadow: 1px 2px 2px #ccc;
+	margin:0 auto;
+	padding-top: 40px;
+	margin-top: 40px;
+}
+
+.img{
+	height: 200px;
+	width: 300px;
+	border: 1px solid #FED61A;
+	border-radius: 5px;
+	padding: 5px;
+	display: inline-block;
+}
+
+
+
+.intro{
+	margin-left:40px; 
+	display:inline-block;
+}
+
+.author{
+	font-size: .8em;
+	color: #ccc ;
+}
+.t_r{
+	text-align: left;
+}
+
+.C_intro{
+	margin-top: 20px;
+	font-size:0.8em;
+	border-bottom: 3px solid #FED61A; 
+	display: inline-block;
+	 }
+
+
+.con{
+	columns:350px;
+	font-size: 0.9em;
+	/*color: #07111B;*/
+}
+
+.author  a{
+	color: #ccc;
+}
+
+.btn{
+
+	width: 150px;
+	height: 35px;
+	background: white;
+	color: #FED61A;
+	border: 2px solid #FED61A;
+	border-radius:5px;
+	cursor: pointer;
+}
+
+
+.margin{
+	display: inline-block;
+	border-bottom:  solid 1px #ccc;
+	width:700px;
+}
+
+.item{
+	width: 700px;
+	height: 80px;
+	line-height: 80px;
+	border-bottom: solid 1px #ccc;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.theChapter{
+	font-weight: bold;
+	margin-right: 50px;
+	float: left;
+}
+
+.item a:hover{
+	color: #FED61A;
+}
+
+@media screen and (min-height:  800px){
+	.main1{
+		height: auto;
+	}
+  }

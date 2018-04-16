@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+	<title>漫画</title>
+	<meta charset = "utf-8">
+	<link href="style/style.css" rel="stylesheet" type="text/css" />
+	<link href="style/look.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+
+<body>
+
+	<div class="top center">
+		<a href="#">
+			<img class="logo" src="images/logo.png">
+		</a>
+		<img src="images/tlogo.png">
+	<div class="login" >
+	<a href="login.html">登录</a> | 
+	<a href="login1.html">注册</a>
+	</div>
+
+	<div class="login_user" >
+	<a href="login.html">个人中心</a> 
+	</div>
+	</div>
+
+	<!--内容-->
+
+	<div class = "main1">
+		<!--获取章节-->
+	<span class = "getChapter">第N章</span>
+	<!--图片-->
+	<img class = "comic" src="images/hehe.png">
+
+	<a href="#" class = "former">上一章</a>|
+	<a href="#" class = "later">下一章</a>|
+	<a href="#" class = "ca">返回目录</a>
+
+	</div>
+
+
+
+	<a href="#"><img id="totop"  src="images/top.png"></a>
+	<div class="bottom"><br>版权所有，翻版必究</div>
+	
+
+</body>
+
+<script type="text/javascript">
+window.onload = function(){
+	var node = document.getElementsByClassName("comic");
+
+	var rate = 900 / (node[0].width);
+	node[0].width = node[0].width * rate ;
+	node[0].height = node[0].height * rate;
+}
+</script>
+</html>

@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+	<title>漫画</title>
+	<meta charset = "utf-8">
+	<link href="style/style.css" rel="stylesheet" type="text/css" />
+	<link href="style/comic.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+	<div class="top center">
+		<a href="#">
+			<img class="logo" src="images/logo.png">
+		</a>
+		<img src="images/tlogo.png">
+	<div class="login" >
+	<a href="login.html">登录</a> | 
+	<a href="login1.html">注册</a>
+	</div>
+
+	<div class="login_user" >
+	<a href="login.html">个人中心</a> 
+	</div>
+	</div>
+
+	<div class = "main1">
+		<div class = "comic">
+			<img class = "img" src="images/tt.jpg">
+			<div class = "intro t_r">
+				<div class = "name">漫画名字巴拉巴拉</div>
+				<div class = "author" id = "color"><a href="">作者balabala</a></div>
+				<div class = "C_intro">漫画简介</div>
+				<p class = "con">
+					hehehehhehheeh这大概是一本耽美漫画吧哈呵呵呵呵呵呵interesting呵呵额呵呵呵呵呵
+				</p>
+
+				<!--是否关注的值来自数据库-->
+				<!--游客不能关注漫画-->
+				<input type = "button" class = "btn" value = "关注" onclick="on(this)">
+			</div>	
+
+			<div class = "margin"></div>
+			
+		</div>
+		<div class = "chapter">
+
+			<!--每一集-->
+			<div class = "item">
+				<span class = "theChapter">第一章</span>
+				<a href="#" class = "theName">章节名</a>
+			</div> 
+
+			<div class = "item">
+				<span class = "theChapter">第二章</span>
+				<a href="#" class = "theName">章节名</a>
+			</div> 
+			<div class = "item">
+				<span class = "theChapter">第二章</span>
+				<a href="#" class = "theName">章节名</a>
+			</div> 
+
+
+
+
+		</div>
+
+	</div>
+	<a href="#"><img id="totop"src="images/top.png"></a>
+	<div class="bottom"><br>版权所有，翻版必究</div>
+	
+
+<script type="text/javascript">
+function on(node){
+	if(node.value != "已关注"){
+	node.value = "已关注";
+	node.style.color = "white";
+	node.style.background = "#FED61A";
+	}else{
+	node.value = "关注";
+	node.style.color = "#FED61A";
+	node.style.background = "white";
+	}
+	
+}
+</script>
+</body>
+</html>

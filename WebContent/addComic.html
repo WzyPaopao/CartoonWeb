@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+	<title>新增漫画</title>
+	<meta charset = "utf-8">
+	<link href="style/style.css" rel="stylesheet" type="text/css" />
+	<link href="style/submit.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="top center">
+<a href="#"><img class="logo" src="images/logo.png"></a><img src="images/tlogo.png">
+</div>
+
+<div id="main">
+
+<div class="set">
+<p>请选择您的作品上传（注：作品须为作者原创）</p>
+
+
+
+		
+<div>
+	<label>漫画名</label>
+	<input type = "text" placeholder="输入漫画" class = "form">
+</div>
+	<label>内容简介</label>
+	<input type = "textarea"  placeholder="漫画主要内容" class = "form">
+	<div>作者</div>
+	<input type = "textarea"  placeholder="输入作者" class = "form">
+
+	<div>选择漫画类别</div>
+	 
+	<select class ="form">
+	  	<option value="">少年热血</option>
+	  	<option value="">少女爱情</option>
+	  	<option value="">爆笑喜剧</option>
+	  	<option value="">科幻灵异</option>
+	  	<option value="">耽美恋爱</option>
+	  	<option value="">武侠格斗</option>
+	</select>
+	<div>上传漫画封面</div>
+	<input id="File1" runat="server" name="UpLoadFile" type="file"  >  
+	<input type="submit" name="Button1"  value="提交" class = "btn" id="Button" /> 
+	</div>
+
+	
+
+</div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+width:100%;
+height:800px;
+background:#fbfaed;
+	padding:0;
+	margin: 0;
+	text-align: center;
+}
+img{
+vertical-align:top;  
+}
+.top{
+text-align:center;
+margin:0;
+border:0;
+width:100%;
+height:98;
+background-image:url(../images/topbg.png);
+}
+img{
+vertical-align:top;  
+}
+
+.logo{
+position:absolute;
+top:0;
+left:0;
+}
+.gps{
+text-align:center;
+width:100%;
+height:45px;
+background-image:url(../images/gps.png);
+background-repeat:repeat;
+border:0;
+}
+.login{
+color:#ccc;
+margin:0;
+padding:0;
+position:absolute;
+top:58px;
+right:13px;
+}
+li{list-style:none;}
+em{font-style:normal;color:#999;}
+a{text-decoration:none;}
+a:hover {color:#FF00FF;text-decoration:underline;}
+#main{height:1200px;width:700px;margin:0 auto;
+background:#fff;
+box-shadow: 2px 4px 6px #000;}
+.set{height:220px;width:650px;float:left;border:solid 2px #ccf;padding:12px;}
+.blank{float:left;height:100px;width:600px;}
+p{text-align:left;}
+.blank1{float:left;height:200px;width:20px;}
+span{
+width:100%;
+height:60px;
+font-size:14;
+color:#666;
+float:left;
+background:#ffd704;
+margin-bottom:0px;
+}
+#totop{position:fixed;bottom:0px;right:50px;height:150px;width:80px;}

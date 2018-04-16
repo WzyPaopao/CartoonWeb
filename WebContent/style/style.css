@@ -1,0 +1,179 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+body{
+width:100%;
+height:800px;
+background:#fbfaed;
+	padding:0;
+	margin: 0;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+
+
+.center{
+margin: 0 auto;	
+}
+img{
+vertical-align:top;  
+}
+.top{
+position: relative;
+text-align:center;
+border:0;
+width:100%;
+height:98;
+background: #FED61A;
+background-image:url(../images/topbg.png);
+}
+.login,.login_user{
+color:#ccc;
+margin:0;
+padding:0;
+position:absolute;
+top:58px;
+right:13px;
+}
+
+.login_user{
+	display: none;
+}
+
+
+.logo{
+position:absolute;
+top:0;
+left:0;
+}
+.gps{
+text-align:center;
+width:100%;
+height:45px;
+line-height: 45px;
+
+background: linear-gradient(#FEFE1F,#FF960E);
+
+}
+
+#container img {
+	width: 500px;
+	height: 400px;
+}
+.f_l{
+	float: left;
+}
+.f_r{
+	float: right;
+}
+#container{
+moz-transition: all .7s ease-in;
+-o-transition: all .7s ease-in;
+-ms-transition: all .7s ease-in;
+transition: all .7s ease-in;
+position: relative;
+height:400px;
+width:500px;
+border:solid 2px #0cc;
+padding:3px;
+/*background: url(../images/g.jpg)  no-repeat;*/
+
+}
+
+#totop{position:fixed;bottom:0px;right:50px;}
+#container,.border1{
+	float: left;
+
+}
+
+.border1 {
+position: relative;
+margin-left: 10px;
+height:400px;
+width:250px;
+border:solid 2px #0cc;
+padding: 3px;
+
+}
+.hot{
+	font-family: "宋体";
+	margin-left: 5px;
+	float: left;
+	color: #D8181B;
+	font-size: 36px;
+	font-style:italic;
+	font-weight:bold;
+}
+.in_bl{
+	display: inline-block;
+}
+.bold{
+	font-weight:bold;
+}
+.hot_{
+	font-family: "宋体";
+	margin-left: 5px;
+	float: left;
+	color: blasck;
+	font-style:italic;
+	font-size: 24px;
+
+}
+.light{
+	color:#ccc;
+}
+.ul{
+	width:100%;
+	padding: 0;
+	margin: 0 auto;
+	display: block;
+}
+li {
+padding: 0;
+width: 100%;
+list-style-type:none;
+text-align:center;
+line-height:36px;
+border-bottom: 1px dashed #666;}
+
+.main{
+
+height:500px;
+width:800px;
+margin:0 auto;
+padding:50px;
+background:#fff;
+box-shadow: 1px 2px 2px #ccc;
+}
+a:hover {color:rgba(0,0,0,.4);}
+a{text-decoration:none;color: black;}
+
+.bottom{
+	width:100%;
+	margin-top: 60px;
+	color:#666;
+	height: 45px;
+	background:#ffd704;
+}
+
+.image{
+	position: absolute;
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	opacity: 0;
+	moz-transition: all 1s ease-in;
+  	-o-transition: all 1s ease-in;
+  	-ms-transition: all 1s ease-in;
+  	transition: all 1s ease-in;
+}
+
+
+.image:first-of-type{
+	opacity: 1;
+}
+
+
+
+

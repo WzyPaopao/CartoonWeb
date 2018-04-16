@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+width:100%;
+height:600px;
+background:#fbfaed;
+	padding:0;
+	margin: 0;
+	text-align: center;
+}
+img{
+vertical-align:top;  
+}
+.top{
+text-align:center;
+margin:0;
+border:0;
+width:100%;
+height:98;
+background-image:url(../images/topbg.png);
+}
+img{
+vertical-align:top;  
+}
+
+.logo{
+position:absolute;
+top:0;
+left:0;
+}
+.gps{
+text-align:center;
+width:100%;
+height:45px;
+background-image:url(../images/gps.png);
+background-repeat:repeat;
+border:0;
+}
+.login{
+color:#ccc;
+margin:0;
+padding:0;
+position:absolute;
+top:58px;
+right:13px;
+}
+#main{
+height:480px;
+width:600px;
+margin:0 auto;
+padding:100px;
+background:#fff;
+box-shadow: 2px 4px 6px #000;
+}
+
+li{list-style:none;;margin:30px;}
+em{font-style:normal;color:#999;}
+a{text-decoration:none;}
+a:hover {color:#FF00FF;text-decoration:underline;}
+
+span{
+width:100%;
+height:60px;
+font-size:14;
+color:#666;
+float:left;
+background:#ffd704;
+margin-bottom:0px;
+}
